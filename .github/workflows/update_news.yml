@@ -30,4 +30,4 @@ jobs:
         git add ff_calendar_thisweek.csv
         # Jika tidak ada perubahan, git commit akan error, jadi kita pakai || true
         git commit -m "Auto-update High Impact News [Sunday Sync]" || true
-        git pushv
+        git push
